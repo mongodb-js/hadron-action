@@ -1,0 +1,34 @@
+{
+  "name": "hadron-action",
+  "description": "Hadron Actions",
+  "author": "Durran Jordan <durran@gmail.com>",
+  "bugs": "https://github.com/mongodb-js/hadron-action/issues",
+  "homepage": "https://github.com/mongodb-js/hadron-action",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mongodb-js/hadron-action.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "mongodb-js"
+  ],
+  "scripts": {
+    "check": "mongodb-js-precommit ./lib/*.js",
+    "ci": "npm run check",
+    "fmt": "mongodb-js-fmt ./*.js ./test/*.js"
+  },
+  "precommit": [
+    "check"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0",
+    "reflux": "^0.4.1"
+  },
+  "devDependencies": {
+    "eslint-config-mongodb-js": "^1.0.6",
+    "mongodb-js-fmt": "^0.0.3",
+    "mongodb-js-precommit": "^0.2.8",
+    "pre-commit": "^1.1.2"
+  }
+}

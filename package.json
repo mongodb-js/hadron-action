@@ -22,7 +22,7 @@
     "check"
   ],
   "dependencies": {
-    "debug": "^2.2.0",
+    "debug": "^2.4.3",
     "reflux": "^0.4.1"
   },
   "devDependencies": {

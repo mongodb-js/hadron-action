@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "debug": "^2.2.0",
-    "reflux": "^0.4.1"
+    "reflux": "^6.4.1"
   },
   "devDependencies": {
     "eslint-config-mongodb-js": "^2.2.0",
